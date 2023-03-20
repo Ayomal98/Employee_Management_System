@@ -1,8 +1,5 @@
-package com.ayomal.employeemanagementsystem.model;
+package com.ayomal.employeemanagementsystem.payload;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Employee {
+public class EmployeeDTO {
     private long id;
     private String firstName;
     private String lastName;
